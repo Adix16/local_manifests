@@ -3,30 +3,17 @@
 <!-- Generated using sounddrill31/actions_generate_local_manifests -->
 
     <!-- Remotes -->
-    <remote name="halibw" fetch="https://github.com/halibw" clone-depth="1" />
-    <remote name="halibw-dev" fetch="https://github.com/halibw-dev" clone-depth="1" />
-    <remote name="sounddrill31" fetch="https://github.com/sounddrill31" clone-depth="1" />
-
-    <!-- Removals -->
-    <remove-project name="LineageOS/android_hardware_qcom_audio" />
-    <remove-project name="LineageOS/android_hardware_qcom_media" />
+    <remote name="pipa-random" fetch="https://github.com/pipa-random" clone-depth="1" />
+    <remote name="beet-stuffs" fetch="https://github.com/beet-stuffs" clone-depth="1" />
 
     <!-- Repos -->
     <!-- Device -->
-    <project path="device/xiaomi/oxygen" name="android_device_xiaomi_oxygen-3" remote="sounddrill31" revision="lineage-21-qpr3" />
-
-    <!-- Device - Common -->
+    <project path="device/xiaomi/pipa" name="android_device_xiaomi_pipa" remote="pipa-random" revision="lineage-22.2" />
 
     <!-- Kernel -->
-    <project path="kernel/xiaomi/oxygen" name="android_kernel_xiaomi_oxygen" remote="halibw" revision="lineage-21" />
+    <project path="kernel/xiaomi/pipa" name="android_kernel_xiaomi_sm8250" remote="pipa-random" revision="lineage-22.2" />
 
     <!-- Vendor -->
-    <project path="vendor/xiaomi/oxygen" name="proprietary_vendor_oxygen" remote="sounddrill31" revision="lineage-21-qpr3" />
-
-    <!-- Vendor - Common -->
-
-    <!-- Hardware -->
-    <project path="hardware/qcom-caf/msm8953/media" name="hardware_qcom_msm8953_4.19_media" remote="halibw-dev" revision="LA.UM.9.6.4.r1-05200" />
-    <project path="hardware/qcom-caf/msm8953/audio" name="hardware_qcom_msm8953_4.19_audio" remote="halibw-dev" revision="9.6.4.r1-05200" />
+    <project path="vendor/xiaomi/pipa" name="vendor_xiaomi_pipa" remote="beet-stuffs" revision="beet-stuffs" />
 
 </manifest>
